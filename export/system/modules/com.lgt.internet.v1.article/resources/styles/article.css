@@ -1,0 +1,11 @@
+div.read_more{
+	color: #283C83;
+    cursor: pointer;
+    display: block;
+    font-family: "Frutiger LT W01 65 Bold",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 0 0 0.75em;
+    position: relative;
+    text-decoration: none;
+	}

@@ -1,0 +1,16 @@
+
+/* Social network links */
+
+#content_wrapper ul.social-bookmarks {
+	list-style: none outside none;
+	margin-left: 0; 
+}
+
+#content_wrapper ul.social-bookmarks li {
+	background:none;
+	display: inline; 
+	margin-right: 6px;
+	margin-left: 0;
+	padding: 0;
+}
+

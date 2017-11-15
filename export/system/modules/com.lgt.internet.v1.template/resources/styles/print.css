@@ -1,0 +1,202 @@
+html {
+	min-width: 17cm;
+}
+body {
+	color: #000;
+	width: auto;
+}
+h3 {
+	color: #000;
+}
+#outer_wrapper {
+	background: #fff none !important;
+	width: auto;
+}
+#shadow_container, #platzhalter, #footer_wrapper {
+	display: none;
+}
+#meta_first, #meta_second, #navigation_wrapper {
+	display: none;
+}
+#header_wrapper {
+	position: static;
+	margin: 0;
+	width: auto;
+	padding: 0;
+	background: none;
+}
+#header {
+	min-height: 2cm;
+	padding-bottom: 0;
+	background: none;
+}
+#logo {
+	position: static;
+	width: auto;
+	border-bottom: 1px solid #ccc;
+}
+#logo img {
+	display: inline;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+}
+#logo p {
+	text-align: left;
+	display: inline;
+}
+#breadcrumb_wrapper {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+#content_wrapper {
+	margin: 0;
+	width: auto;
+	padding-left: 0;
+}
+
+div.col33, div.col66 {
+	float: none;
+	display: block;
+	width: auto;
+}
+div.maintext {
+	position: relative;
+	float: none;
+	height: auto;
+	padding-bottom: 0;
+	overflow: auto;
+}
+div.maintext div.link, div.home_teaser div.link, div.pulldown_position, div.pulldown, div.mainvisual div.text div.link, 
+.paging {
+	display: none;
+}
+div.mainvisual {
+	position: static;
+	float: none;
+	margin: 0;
+	width: auto;
+	height: auto;
+}
+div.mainvisual div.image {
+	position: static;
+}
+div.mainvisual div.text h2, div.mainvisual div.text p {
+	color: #000;
+}
+div.mainvisual div.text.redbox h2, div.mainvisual div.text.redbox p, div.mainvisual div.text.boxright h2, div.mainvisual div.text.boxright p, div.mainvisual div.text.boxleft h2, div.mainvisual div.text.boxleft p {
+	margin: 0;
+}
+div.mainvisual div.text.boxright, div.mainvisual div.text.boxleft, div.mainvisual div.text.redbox {
+	position: static;
+	width: auto;
+	height: auto;
+	background: #fff none;
+	color: #000;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+div.home_teaser {
+	position: static;
+	height: auto;
+	padding-bottom: 0;
+	margin-bottom: 0.5cm;
+}
+div.pulldown_container {
+	height: auto;
+}
+div.maintext h1, div.maintext h2, div.maintext h3, div.maintext h4, 
+div.maintext p, div.maintext div.link, div.maintext ul, 
+div.home_teaser h1, div.home_teaser h2, div.home_teaser h3, div.home_teaser h4, 
+div.home_teaser p, div.home_teaser div.link, div.home_teaser ul {
+	margin-left: 0;
+	margin-right: 0;
+}
+div.home_teaser ul.list {
+	margin-left: 0.5cm;
+}
+ul.list li {
+	background: none;
+	list-style-type: disc;
+	padding-left: 0;
+}
+
+div.utility, div.teaser_container, div.teaser_container.clearfix, div.button, div.button.clearfix {
+	display: none;
+}
+div.title_container {
+	margin-left: 0;
+	margin-right: 0;
+}
+div.text_container {
+	float: none;
+	width: auto;
+}
+div.col100 {
+	margin: 0;
+	width: auto;
+}
+div.col50 {
+	margin-left: 0;
+	margin-right: 3%;
+	width: 47%;
+}
+div.col50_visual {
+	float: left;
+	width: auto;
+	margin-right: 0.5cm;
+}
+div.table_container, div.full_container div.table_container {
+	padding: 0;
+}
+div.document_container, div.full_container div.document_container {
+	padding: 0;
+}
+div.document_container ul li {
+	background: #eee none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid #eee;
+}
+
+
+body.printlb div#content_wrapper {
+	display: none;
+}
+body.printlb div#outer_wrapper {
+	min-height: 120px;
+}
+div#darklayer, div#topdarklayer, div#restdarklayer {
+	display: none;
+}
+div#lightbox_content {
+	position: static;
+}
+div#lightbox_close {
+	display: none;
+}
+div.lightbox {
+	position: static;
+	width: 541px;
+	margin: 0;
+	padding: 0;
+	background: transparent none;
+}
+div#lightbox_wrap {
+	display: block;
+	position: static;
+	top: 0;
+	left: 0;
+	z-index: 200;
+	margin: 0;
+	width: 638px;
+	border: 0 none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
